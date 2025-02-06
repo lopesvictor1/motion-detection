@@ -1,2 +1,4 @@
 *.mp4
 *.weights
+*.names
+*.cfg
