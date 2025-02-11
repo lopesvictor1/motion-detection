@@ -15,6 +15,7 @@ To install the necessary dependencies, you can use the following commands:
 ```bash
 pip install opencv-python
 pip install numpy
+pip install yt-dlp
 ```
 
 ### Additional Dependencies
@@ -24,7 +25,7 @@ You will need the following files to run the YOLO model:
 1. **yolov4.weights**  
    The YOLOv4 weights file, which contains the pre-trained weights of the YOLOv4 model.  
    You can download the weights file from the official YOLO website:  
-   [YOLOv4 weights](https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.weights)
+   [YOLOv4 weights](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights)
 
 2. **yolov4.cfg**  
    The YOLOv4 configuration file, which defines the model architecture.  
